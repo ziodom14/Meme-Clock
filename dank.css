@@ -1,0 +1,41 @@
+body {
+    background-image: url(shrek.png); 
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: #306D31;
+    padding: 15px 225px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Cute Font';
+    position: absolute;
+    left: 31%;
+    top: 65%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #306D31; 
+    color: black; 
+    border: 10px solid #4CAF50;
+  }
+
+  .button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+
+.dankclock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Cute Font';
+    font-size: 150px;
+    color: white;
+    border: 10px dashed green;
+}
