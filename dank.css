@@ -1,5 +1,5 @@
 body {
-    background-image: url(shrek.png); 
+    background-image: url(shrek3.jpg); 
 }
 
 .button {
@@ -13,8 +13,9 @@ body {
     font-weight: bold;
     font-family: 'Cute Font';
     position: absolute;
-    left: 31%;
-    top: 65%;
+    left: 50%;
+    top: 75%;
+    transform: translateX(-50%) translateY(-50%);
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
@@ -36,6 +37,6 @@ body {
     transform: translateX(-50%) translateY(-50%);
     font-family: 'Cute Font';
     font-size: 150px;
-    color: white;
+    color: #30E833;
     border: 10px dashed green;
 }
